@@ -1,0 +1,36 @@
+### Info endpoint
+GET localhost:3000/info
+
+### all
+GET http://localhost:3000/api/persons/
+
+### Get invalid id
+GET http://localhost:3000/api/persons/420
+
+### Get not existing valid id
+GET http://localhost:3000/api/persons/6842de673fad7f7a5868a64e
+
+### existing
+GET http://localhost:3000/api/persons/6999a8c11f98a9a4251d5bdb
+
+### Invalid ID
+DELETE http://localhost:3000/api/persons/1
+
+### Delete valid ID
+DELETE http://localhost:3000/api/persons/6842e51e4aacd75c473876f5
+
+### post test
+POST http://localhost:3000/api/persons/
+Content-Type: application/json
+
+{
+  "name": "test",
+  "number": "06-123456"
+}
+
+### Invalid request
+POST http://localhost:3000/api/persons/
+Content-Type: application/json
+
+{
+}

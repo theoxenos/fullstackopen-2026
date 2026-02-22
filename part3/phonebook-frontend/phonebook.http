@@ -1,0 +1,17 @@
+POST http://localhost:3001/persons/
+Content-Type: application/json
+
+{
+  "id": "test",
+  "name": "test",
+  "phone": "123-test"
+}
+
+### 
+DELETE http://localhost:3001/persons/test
+
+###
+GET http://localhost:3001/persons
+
+
+
