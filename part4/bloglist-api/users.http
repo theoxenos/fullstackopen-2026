@@ -1,0 +1,22 @@
+### Create user
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "username": "root",
+  "password": "p@55w0rd",
+  "name": "Henk"
+}
+
+### Create user with too short username
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "username": "ro",
+  "password": "p@55w0rd",
+  "name": "Henk"
+}
+
+### Get users
+GET localhost:3000/api/users
