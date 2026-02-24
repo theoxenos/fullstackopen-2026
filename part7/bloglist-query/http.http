@@ -1,0 +1,14 @@
+POST http://localhost:3000/api/users/
+Content-Type: application/json
+
+{
+  "name": "Administrator",
+  "username": "root",
+  "password":"password"
+}
+
+###
+GET localhost:3000/api/users
+
+###
+GET localhost:3000/api/seed/699caffa84c8956243684d92
