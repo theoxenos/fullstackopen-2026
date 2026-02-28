@@ -1,0 +1,20 @@
+Script started on 2026-02-24 17:31:32+01:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="236" LINES="64"]
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ podman exec -it great_bouman bash
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ podman exec -it great_bouman bash
+[?2004l
+[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# [7mroot@b8548b9faec3:/# node /usr/src/app/index.js[27m
+
+[Aroot@2e3117e21ed0:/# root@b8548b9faec3:/# node /usr/src/app/index.js
+
+[K[Aroot@2e3117e21ed0:/# root@b8548b9faec3:/# node /usr/src/app/index.js[4P[13P[1P[1P[1P[1P
+[?2004l
+Hello World
+[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# [Kexit
+[?2004l
+exit
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exit
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exit
+[?2004l
+exit
+
+Script done on 2026-02-24 17:32:42+01:00 [COMMAND_EXIT_CODE="0"]

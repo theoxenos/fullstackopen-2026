@@ -1,0 +1,21 @@
+GET http://localhost:3000/todos
+
+### STATISTICS
+GET http://localhost:3000/statistics
+
+### POST
+POST localhost:3000/todos
+Content-Type: application/json
+
+{
+  "title": "lipsum"
+}
+
+### PUT
+PUT localhost:3000/todos/695d465e83ca13a8465e84db
+Content-Type: application/json
+
+{
+  "title": "yolo",
+  "completed": true
+}

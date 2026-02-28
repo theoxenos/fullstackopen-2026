@@ -1,0 +1,1171 @@
+Script started on 2026-02-24 15:01:25+01:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="236" LINES="64"]
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exitpodman exec -it great_bouman bash
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exitpodman exec -it great_bouman bash
+[?2004l
+[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# nim  vim usr/src/in  app/index.js 
+[?2004l
+[?1049h[22;0;0t[?1h=[H[2J]11;?[?2004h[?u[c[?25h[?25l(B[m[H[2J[>4;2m[K
+[94m~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+(B[0;1;7musr/src/app/index.js                                                                                                                                                                                                      0,0-1          All]112[2 q]112[2 q[?1002h[?1006h[H[?25h[?25l[?1004h[?25h[?25l[64;226H(B[m^V        [H[?25h[?25l]112[2 q[?25h[?25l[64;226H1x1[H[?25h[?25l[63B(B[0;1m-- VISUAL BLOCK --(B[m[K[?25h[?25l[207C1x1[H[?25h[?25l[64;226H   [Hconsole.log([95m'Hello World'(B[m)[63;22H(B[0;1;7m[+][194C1,26 (B[m
+[18X]112[2 q[63;224H[?25h[?25l[1;12H[46m((B[m[95m'Hello World'(B[m[46m)[?25h[?25l[64;226H(B[m:[1;26H[?25h[?25l[64;226H 
+[64;1H:]112[2 q[?1002l[?1006l[?25h[?25lw[?25h[?25lq[?25h[?25l
+[64;1H[?25h[?25l"usr/src/app/index.js"]112[2 q[?1002h[?1006h[?25h[?25l[C1L, 27B written[?25h[?25l
+[64;1H]112[2 q[?1002l[?1006l(B[m[?25h[?1l>[>4;0m[?1049l[23;0;0t[?2004l[?1004l[?25h[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# [Kcurl -sL [7mhttps://deb.nodesource.com/setup_24.x[27mhttps://deb.nodesource.com/setup_24.x | bash
+[?2004l
+bash: curl: command not found
+[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# [Kapt install curl
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 55%
+
+Reading package lists... 55%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 76%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 2%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  krb5-locales libbrotli1 libcurl4t64 libgssapi-krb5-2 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap-common libldap2 libnghttp2-14 libpsl5t64 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 publicsuffix
+Suggested packages:
+  krb5-doc krb5-user libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql
+The following NEW packages will be installed:
+  curl krb5-locales libbrotli1 libcurl4t64 libgssapi-krb5-2 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap-common libldap2 libnghttp2-14 libpsl5t64 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4
+  publicsuffix
+0 upgraded, 19 newly installed, 0 to remove and 4 not upgraded.
+Need to get 2410 kB of archives.
+After this operation, 6894 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+[33m
+0% [Working][0m[33m
+0% [Connecting to archive.ubuntu.com (91.189.91.83)][0m
+                                                    
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 krb5-locales all 1.20.1-6ubuntu2.6 [14.8 kB]
+[33m
+                                                    
+0% [1 krb5-locales 2606 B/14.8 kB 18%][0m[33m
+                                      
+2% [Working][0m
+            
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5support0 amd64 1.20.1-6ubuntu2.6 [34.4 kB]
+[33m
+2% [2 libkrb5support0 2606 B/34.4 kB 8%][0m[33m
+                                        
+4% [Waiting for headers][0m
+                        
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libk5crypto3 amd64 1.20.1-6ubuntu2.6 [82.0 kB]
+[33m
+4% [3 libk5crypto3 1225 B/82.0 kB 1%][0m[33m
+6% [3 libk5crypto3 70.7 kB/82.0 kB 86%][0m[33m
+                                       
+8% [Waiting for headers][0m
+                        
+Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 libkeyutils1 amd64 1.6.3-3build1 [9490 B]
+[33m
+8% [4 libkeyutils1 1502 B/9490 B 16%][0m[33m
+                                     
+9% [Waiting for headers][0m
+                        
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5-3 amd64 1.20.1-6ubuntu2.6 [348 kB]
+[33m
+9% [5 libkrb5-3 408 B/348 kB 0%][0m[33m
+                                
+21% [Waiting for headers][0m
+                         
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssapi-krb5-2 amd64 1.20.1-6ubuntu2.6 [143 kB]
+[33m
+22% [6 libgssapi-krb5-2 8762 B/143 kB 6%][0m[33m
+                                         
+27% [Waiting for headers][0m
+                         
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnghttp2-14 amd64 1.59.0-1ubuntu0.2 [74.3 kB]
+[33m
+28% [7 libnghttp2-14 17.4 kB/74.3 kB 23%][0m[33m
+                                         
+31% [Waiting for headers][0m
+                         
+Get:8 http://archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+[33m
+31% [8 libpsl5t64 5176 B/57.1 kB 9%][0m[33m
+                                    
+34% [Waiting for headers][0m
+                         
+Get:9 http://archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+[33m
+34% [9 publicsuffix 4096 B/129 kB 3%][0m[33m
+                                     
+39% [Waiting for headers][0m
+                         
+Get:10 http://archive.ubuntu.com/ubuntu noble/main amd64 libbrotli1 amd64 1.1.0-2build2 [331 kB]
+[33m
+39% [10 libbrotli1 12.8 kB/331 kB 4%][0m[33m
+                                     
+51% [Waiting for headers][0m
+                         
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg1-5ubuntu3.1 [20.4 kB]
+[33m
+53% [Waiting for headers][0m
+                         
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-2 amd64 2.1.28+dfsg1-5ubuntu3.1 [53.2 kB]
+[33m
+54% [12 libsasl2-2 20.9 kB/53.2 kB 39%][0m[33m
+                                       
+56% [Waiting for headers][0m
+                         
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap2 amd64 2.6.10+dfsg-0ubuntu0.24.04.1 [198 kB]
+[33m
+57% [13 libldap2 27.1 kB/198 kB 14%][0m[33m
+                                    
+63% [Waiting for headers][0m
+                         
+Get:14 http://archive.ubuntu.com/ubuntu noble/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build7 [56.3 kB]
+[33m
+65% [14 librtmp1 56.3 kB/56.3 kB 100%][0m[33m
+                                      
+66% [Waiting for headers][0m
+                         
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libssh-4 amd64 0.10.6-2ubuntu0.3 [190 kB]
+[33m
+67% [15 libssh-4 18.7 kB/190 kB 10%][0m[33m
+                                    
+74% [Waiting for headers][0m
+                         
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.6 [341 kB]
+[33m
+74% [16 libcurl4t64 2974 B/341 kB 1%][0m[33m
+                                     
+86% [Waiting for headers][0m
+                         
+Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.6 [226 kB]
+[33m
+86% [17 curl 7868 B/226 kB 3%][0m
+                              
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libldap-common all 2.6.10+dfsg-0ubuntu0.24.04.1 [32.9 kB]
+[33m
+95% [18 libldap-common 15.0 kB/32.9 kB 46%][0m[33m
+                                           
+97% [Waiting for headers][0m
+                         
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-modules amd64 2.1.28+dfsg1-5ubuntu3.1 [69.9 kB]
+[33m
+97% [19 libsasl2-modules 13.8 kB/69.9 kB 20%][0m[33m
+                                             
+100% [Working][0m
+              
+Fetched 2410 kB in 3s (835 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;63r8[1ASelecting previously unselected package krb5-locales.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 8645 files and directories currently installed.)
+Preparing to unpack .../00-krb5-locales_1.20.1-6ubuntu2.6_all.deb ...
+7[64;0f[42m[30mProgress: [  0%][49m[39m [......................................................................................................................................................................................................................] 87[64;0f[42m[30mProgress: [  1%][49m[39m [##....................................................................................................................................................................................................................] 8Unpacking krb5-locales (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [  3%][49m[39m [#####.................................................................................................................................................................................................................] 8Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../01-libkrb5support0_1.20.1-6ubuntu2.6_amd64.deb ...
+7[64;0f[42m[30mProgress: [  4%][49m[39m [########..............................................................................................................................................................................................................] 8Unpacking libkrb5support0:amd64 (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [  5%][49m[39m [###########...........................................................................................................................................................................................................] 8Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../02-libk5crypto3_1.20.1-6ubuntu2.6_amd64.deb ...
+7[64;0f[42m[30mProgress: [  6%][49m[39m [#############.........................................................................................................................................................................................................] 8Unpacking libk5crypto3:amd64 (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [  8%][49m[39m [################......................................................................................................................................................................................................] 8Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../03-libkeyutils1_1.6.3-3build1_amd64.deb ...
+7[64;0f[42m[30mProgress: [  9%][49m[39m [###################...................................................................................................................................................................................................] 8Unpacking libkeyutils1:amd64 (1.6.3-3build1) ...
+7[64;0f[42m[30mProgress: [ 10%][49m[39m [######################................................................................................................................................................................................................] 8Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../04-libkrb5-3_1.20.1-6ubuntu2.6_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 12%][49m[39m [#########################.............................................................................................................................................................................................] 8Unpacking libkrb5-3:amd64 (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [ 13%][49m[39m [###########################...........................................................................................................................................................................................] 8Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../05-libgssapi-krb5-2_1.20.1-6ubuntu2.6_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 14%][49m[39m [##############################........................................................................................................................................................................................] 8Unpacking libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [ 16%][49m[39m [#################################.....................................................................................................................................................................................] 8Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../06-libnghttp2-14_1.59.0-1ubuntu0.2_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 17%][49m[39m [####################################..................................................................................................................................................................................] 8Unpacking libnghttp2-14:amd64 (1.59.0-1ubuntu0.2) ...
+7[64;0f[42m[30mProgress: [ 18%][49m[39m [######################################................................................................................................................................................................................] 8Selecting previously unselected package libpsl5t64:amd64.
+Preparing to unpack .../07-libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 19%][49m[39m [#########################################.............................................................................................................................................................................] 8Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+7[64;0f[42m[30mProgress: [ 21%][49m[39m [############################################..........................................................................................................................................................................] 8Selecting previously unselected package publicsuffix.
+Preparing to unpack .../08-publicsuffix_20231001.0357-0.1_all.deb ...
+7[64;0f[42m[30mProgress: [ 22%][49m[39m [###############################################.......................................................................................................................................................................] 8Unpacking publicsuffix (20231001.0357-0.1) ...
+7[64;0f[42m[30mProgress: [ 23%][49m[39m [##################################################....................................................................................................................................................................] 8Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../09-libbrotli1_1.1.0-2build2_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 25%][49m[39m [####################################################..................................................................................................................................................................] 8Unpacking libbrotli1:amd64 (1.1.0-2build2) ...
+7[64;0f[42m[30mProgress: [ 26%][49m[39m [#######################################################...............................................................................................................................................................] 8Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../10-libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 27%][49m[39m [##########################################################............................................................................................................................................................] 8Unpacking libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+7[64;0f[42m[30mProgress: [ 29%][49m[39m [#############################################################.........................................................................................................................................................] 8Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../11-libsasl2-2_2.1.28+dfsg1-5ubuntu3.1_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 30%][49m[39m [###############################################################.......................................................................................................................................................] 8Unpacking libsasl2-2:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+7[64;0f[42m[30mProgress: [ 31%][49m[39m [##################################################################....................................................................................................................................................] 8Selecting previously unselected package libldap2:amd64.
+Preparing to unpack .../12-libldap2_2.6.10+dfsg-0ubuntu0.24.04.1_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 32%][49m[39m [#####################################################################.................................................................................................................................................] 8Unpacking libldap2:amd64 (2.6.10+dfsg-0ubuntu0.24.04.1) ...
+7[64;0f[42m[30mProgress: [ 34%][49m[39m [########################################################################..............................................................................................................................................] 8Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../13-librtmp1_2.4+20151223.gitfa8646d.1-2build7_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 35%][49m[39m [###########################################################################...........................................................................................................................................] 8Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+7[64;0f[42m[30mProgress: [ 36%][49m[39m [#############################################################################.........................................................................................................................................] 8Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../14-libssh-4_0.10.6-2ubuntu0.3_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 38%][49m[39m [################################################################################......................................................................................................................................] 8Unpacking libssh-4:amd64 (0.10.6-2ubuntu0.3) ...
+7[64;0f[42m[30mProgress: [ 39%][49m[39m [###################################################################################...................................................................................................................................] 8Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../15-libcurl4t64_8.5.0-2ubuntu10.6_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 40%][49m[39m [######################################################################################................................................................................................................................] 8Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+7[64;0f[42m[30mProgress: [ 42%][49m[39m [########################################################################################..............................................................................................................................] 8Selecting previously unselected package curl.
+Preparing to unpack .../16-curl_8.5.0-2ubuntu10.6_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 43%][49m[39m [###########################################################################################...........................................................................................................................] 8Unpacking curl (8.5.0-2ubuntu10.6) ...
+7[64;0f[42m[30mProgress: [ 44%][49m[39m [##############################################################################################........................................................................................................................] 8Selecting previously unselected package libldap-common.
+Preparing to unpack .../17-libldap-common_2.6.10+dfsg-0ubuntu0.24.04.1_all.deb ...
+7[64;0f[42m[30mProgress: [ 45%][49m[39m [#################################################################################################.....................................................................................................................] 8Unpacking libldap-common (2.6.10+dfsg-0ubuntu0.24.04.1) ...
+7[64;0f[42m[30mProgress: [ 47%][49m[39m [####################################################################################################..................................................................................................................] 8Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../18-libsasl2-modules_2.1.28+dfsg1-5ubuntu3.1_amd64.deb ...
+7[64;0f[42m[30mProgress: [ 48%][49m[39m [######################################################################################################................................................................................................................] 8Unpacking libsasl2-modules:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+7[64;0f[42m[30mProgress: [ 49%][49m[39m [#########################################################################################################.............................................................................................................] 8Setting up libkeyutils1:amd64 (1.6.3-3build1) ...
+7[64;0f[42m[30mProgress: [ 51%][49m[39m [############################################################################################################..........................................................................................................] 87[64;0f[42m[30mProgress: [ 52%][49m[39m [###############################################################################################################.......................................................................................................] 8Setting up libbrotli1:amd64 (1.1.0-2build2) ...
+7[64;0f[42m[30mProgress: [ 53%][49m[39m [#################################################################################################################.....................................................................................................] 87[64;0f[42m[30mProgress: [ 55%][49m[39m [####################################################################################################################..................................................................................................] 8Setting up libsasl2-modules:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+7[64;0f[42m[30mProgress: [ 56%][49m[39m [#######################################################################################################################...............................................................................................] 87[64;0f[42m[30mProgress: [ 57%][49m[39m [##########################################################################################################################............................................................................................] 8Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+7[64;0f[42m[30mProgress: [ 58%][49m[39m [#############################################################################################################################.........................................................................................] 87[64;0f[42m[30mProgress: [ 60%][49m[39m [###############################################################################################################################.......................................................................................] 8Setting up libnghttp2-14:amd64 (1.59.0-1ubuntu0.2) ...
+7[64;0f[42m[30mProgress: [ 61%][49m[39m [##################################################################################################################################....................................................................................] 87[64;0f[42m[30mProgress: [ 62%][49m[39m [#####################################################################################################################################.................................................................................] 8Setting up krb5-locales (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [ 64%][49m[39m [########################################################################################################################################..............................................................................] 87[64;0f[42m[30mProgress: [ 65%][49m[39m [##########################################################################################################################################............................................................................] 8Setting up libldap-common (2.6.10+dfsg-0ubuntu0.24.04.1) ...
+7[64;0f[42m[30mProgress: [ 66%][49m[39m [#############################################################################################################################################.........................................................................] 87[64;0f[42m[30mProgress: [ 68%][49m[39m [################################################################################################################################################......................................................................] 8Setting up libkrb5support0:amd64 (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [ 69%][49m[39m [###################################################################################################################################################...................................................................] 87[64;0f[42m[30mProgress: [ 70%][49m[39m [######################################################################################################################################################................................................................] 8Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+7[64;0f[42m[30mProgress: [ 71%][49m[39m [########################################################################################################################################################..............................................................] 87[64;0f[42m[30mProgress: [ 73%][49m[39m [###########################################################################################################################################################...........................................................] 8Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+7[64;0f[42m[30mProgress: [ 74%][49m[39m [##############################################################################################################################################################........................................................] 87[64;0f[42m[30mProgress: [ 75%][49m[39m [#################################################################################################################################################################.....................................................] 8Setting up libk5crypto3:amd64 (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [ 77%][49m[39m [###################################################################################################################################################################...................................................] 87[64;0f[42m[30mProgress: [ 78%][49m[39m [######################################################################################################################################################################................................................] 8Setting up libsasl2-2:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+7[64;0f[42m[30mProgress: [ 79%][49m[39m [#########################################################################################################################################################################.............................................] 87[64;0f[42m[30mProgress: [ 81%][49m[39m [############################################################################################################################################################################..........................................] 8Setting up libkrb5-3:amd64 (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [ 82%][49m[39m [###############################################################################################################################################################################.......................................] 87[64;0f[42m[30mProgress: [ 83%][49m[39m [#################################################################################################################################################################################.....................................] 8Setting up publicsuffix (20231001.0357-0.1) ...
+7[64;0f[42m[30mProgress: [ 84%][49m[39m [####################################################################################################################################################################################..................................] 87[64;0f[42m[30mProgress: [ 86%][49m[39m [#######################################################################################################################################################################################...............................] 8Setting up libldap2:amd64 (2.6.10+dfsg-0ubuntu0.24.04.1) ...
+7[64;0f[42m[30mProgress: [ 87%][49m[39m [##########################################################################################################################################################################################............................] 87[64;0f[42m[30mProgress: [ 88%][49m[39m [############################################################################################################################################################################################..........................] 8Setting up libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.6) ...
+7[64;0f[42m[30mProgress: [ 90%][49m[39m [###############################################################################################################################################################################################.......................] 87[64;0f[42m[30mProgress: [ 91%][49m[39m [##################################################################################################################################################################################################....................] 8Setting up libssh-4:amd64 (0.10.6-2ubuntu0.3) ...
+7[64;0f[42m[30mProgress: [ 92%][49m[39m [#####################################################################################################################################################################################################.................] 87[64;0f[42m[30mProgress: [ 94%][49m[39m [########################################################################################################################################################################################################..............] 8Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.6) ...
+7[64;0f[42m[30mProgress: [ 95%][49m[39m [##########################################################################################################################################################################################################............] 87[64;0f[42m[30mProgress: [ 96%][49m[39m [#############################################################################################################################################################################################################.........] 8Setting up curl (8.5.0-2ubuntu10.6) ...
+7[64;0f[42m[30mProgress: [ 97%][49m[39m [################################################################################################################################################################################################################......] 87[64;0f[42m[30mProgress: [ 99%][49m[39m [###################################################################################################################################################################################################################...] 8Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+
+7[0;64r8[1A[J[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# apt install curlcurl -sL https://deb.nodesource.com/setup_24.x | bash
+[?2004l
+[38;5;79m2026-02-24 15:03:54 - Installing pre-requisites[0m
+[33m
+0% [Working][0m[33m
+0% [Connecting to archive.ubuntu.com (185.125.190.83)] [Connecting to security.ubuntu.com (91.189.92.22)][0m
+                                                                                                         
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+[33m
+                                                                                                         
+0% [Waiting for headers][0m
+                        
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+[33m
+0% [Waiting for headers][0m
+                        
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+[33m
+                        
+0% [Working][0m
+            
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+[33m
+0% [Working][0m[33m
+0% [Working][0m[33m
+0% [Working][0m[33m
+0% [Working][0m[33m
+20% [Working][0m
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 55%
+
+Reading package lists... 55%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 80%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 1%
+
+Reading state information... Done
+
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 55%
+
+Reading package lists... 55%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 80%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 1%
+
+Reading state information... Done
+
+ca-certificates is already the newest version (20240203).
+ca-certificates set to manually installed.
+curl is already the newest version (8.5.0-2ubuntu10.6).
+The following additional packages will be installed:
+  adduser dirmngr gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpgconf gpgsm keyboxd libksba8 pinentry-curses
+Suggested packages:
+  liblocale-gettext-perl perl cron quota ecryptfs-utils dbus-user-session libpam-systemd pinentry-gnome3 tor parcimonie xloadimage gpg-wks-server scdaemon pinentry-doc
+The following NEW packages will be installed:
+  adduser apt-transport-https dirmngr gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpgconf gpgsm keyboxd libksba8 pinentry-curses
+0 upgraded, 14 newly installed, 0 to remove and 4 not upgraded.
+Need to get 2397 kB of archives.
+After this operation, 5999 kB of additional disk space will be used.
+[33m
+0% [Working][0m
+            
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 adduser all 3.137ubuntu1 [101 kB]
+[33m
+0% [1 adduser 14.0 kB/101 kB 14%][0m[33m
+                                 
+5% [Working][0m
+            
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 apt-transport-https all 2.8.3 [3970 B]
+[33m
+5% [2 apt-transport-https 3970 B/3970 B 100%][0m[33m
+                                             
+6% [Waiting for headers][0m
+                        
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpgconf amd64 2.4.4-2ubuntu17.4 [104 kB]
+[33m
+7% [3 gpgconf 8276 B/104 kB 8%][0m[33m
+                               
+11% [Waiting for headers][0m
+                         
+Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 libksba8 amd64 1.6.6-1build1 [122 kB]
+[33m
+11% [4 libksba8 2712 B/122 kB 2%][0m[33m
+                                 
+17% [Waiting for headers][0m
+                         
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 dirmngr amd64 2.4.4-2ubuntu17.4 [323 kB]
+[33m
+18% [5 dirmngr 29.2 kB/323 kB 9%][0m
+                                 
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gnupg-utils amd64 2.4.4-2ubuntu17.4 [109 kB]
+[33m
+29% [6 gnupg-utils 10.5 kB/109 kB 10%][0m[33m
+                                      
+34% [Waiting for headers][0m
+                         
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpg amd64 2.4.4-2ubuntu17.4 [565 kB]
+[33m
+35% [7 gpg 21.5 kB/565 kB 4%][0m[33m
+                             
+54% [Waiting for headers][0m
+                         
+Get:8 http://archive.ubuntu.com/ubuntu noble/main amd64 pinentry-curses amd64 1.2.1-3ubuntu5 [35.2 kB]
+[33m
+56% [8 pinentry-curses 35.2 kB/35.2 kB 100%][0m[33m
+                                            
+57% [Waiting for headers][0m
+                         
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpg-agent amd64 2.4.4-2ubuntu17.4 [227 kB]
+[33m
+59% [9 gpg-agent 65.2 kB/227 kB 29%][0m[33m
+                                    
+66% [Waiting for headers][0m
+                         
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpgsm amd64 2.4.4-2ubuntu17.4 [232 kB]
+[33m
+67% [10 gpgsm 34.5 kB/232 kB 15%][0m[33m
+                                 
+75% [Waiting for headers][0m
+                         
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 keyboxd amd64 2.4.4-2ubuntu17.4 [78.3 kB]
+[33m
+77% [11 keyboxd 64.7 kB/78.3 kB 83%][0m[33m
+                                    
+79% [Waiting for headers][0m
+                         
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gnupg all 2.4.4-2ubuntu17.4 [359 kB]
+[33m
+80% [12 gnupg 26.4 kB/359 kB 7%][0m[33m
+                                
+93% [Waiting for headers][0m
+                         
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gnupg-l10n all 2.4.4-2ubuntu17.4 [66.4 kB]
+[33m
+93% [13 gnupg-l10n 9921 B/66.4 kB 15%][0m[33m
+                                      
+96% [Waiting for headers][0m
+                         
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gpg-wks-client amd64 2.4.4-2ubuntu17.4 [70.8 kB]
+[33m
+96% [14 gpg-wks-client 6021 B/70.8 kB 8%][0m[33m
+                                         
+100% [Working][0m
+              
+Fetched 2397 kB in 2s (1322 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;63r8[1ASelecting previously unselected package adduser.
+
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 8797 files and directories currently installed.)
+
+Preparing to unpack .../adduser_3.137ubuntu1_all.deb ...
+
+7[64;0f[42m[30mProgress: [  0%][49m[39m [......................................................................................................................................................................................................................] 87[64;0f[42m[30mProgress: [  2%][49m[39m [###...................................................................................................................................................................................................................] 8Unpacking adduser (3.137ubuntu1) ...
+
+7[64;0f[42m[30mProgress: [  4%][49m[39m [#######...............................................................................................................................................................................................................] 8Setting up adduser (3.137ubuntu1) ...
+
+7[64;0f[42m[30mProgress: [  5%][49m[39m [###########...........................................................................................................................................................................................................] 87[64;0f[42m[30mProgress: [  7%][49m[39m [###############.......................................................................................................................................................................................................] 8Selecting previously unselected package apt-transport-https.
+
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 8845 files and directories currently installed.)
+
+Preparing to unpack .../00-apt-transport-https_2.8.3_all.deb ...
+
+7[64;0f[42m[30mProgress: [  9%][49m[39m [##################....................................................................................................................................................................................................] 8Unpacking apt-transport-https (2.8.3) ...
+
+7[64;0f[42m[30mProgress: [ 11%][49m[39m [######################................................................................................................................................................................................................] 8Selecting previously unselected package gpgconf.
+
+Preparing to unpack .../01-gpgconf_2.4.4-2ubuntu17.4_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 12%][49m[39m [##########################............................................................................................................................................................................................] 8Unpacking gpgconf (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 14%][49m[39m [##############################........................................................................................................................................................................................] 8Selecting previously unselected package libksba8:amd64.
+
+Preparing to unpack .../02-libksba8_1.6.6-1build1_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 16%][49m[39m [#################################.....................................................................................................................................................................................] 8Unpacking libksba8:amd64 (1.6.6-1build1) ...
+
+7[64;0f[42m[30mProgress: [ 18%][49m[39m [#####################################.................................................................................................................................................................................] 8Selecting previously unselected package dirmngr.
+
+Preparing to unpack .../03-dirmngr_2.4.4-2ubuntu17.4_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 19%][49m[39m [#########################################.............................................................................................................................................................................] 8Unpacking dirmngr (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 21%][49m[39m [#############################################.........................................................................................................................................................................] 8Selecting previously unselected package gnupg-utils.
+
+Preparing to unpack .../04-gnupg-utils_2.4.4-2ubuntu17.4_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 23%][49m[39m [################################################......................................................................................................................................................................] 8Unpacking gnupg-utils (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 25%][49m[39m [####################################################..................................................................................................................................................................] 8Selecting previously unselected package gpg.
+
+Preparing to unpack .../05-gpg_2.4.4-2ubuntu17.4_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 26%][49m[39m [########################################################..............................................................................................................................................................] 8Unpacking gpg (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 28%][49m[39m [############################################################..........................................................................................................................................................] 8Selecting previously unselected package pinentry-curses.
+
+Preparing to unpack .../06-pinentry-curses_1.2.1-3ubuntu5_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 30%][49m[39m [###############################################################.......................................................................................................................................................] 8Unpacking pinentry-curses (1.2.1-3ubuntu5) ...
+
+7[64;0f[42m[30mProgress: [ 32%][49m[39m [###################################################################...................................................................................................................................................] 8Selecting previously unselected package gpg-agent.
+
+Preparing to unpack .../07-gpg-agent_2.4.4-2ubuntu17.4_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 33%][49m[39m [#######################################################################...............................................................................................................................................] 8Unpacking gpg-agent (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 35%][49m[39m [###########################################################################...........................................................................................................................................] 8Selecting previously unselected package gpgsm.
+
+Preparing to unpack .../08-gpgsm_2.4.4-2ubuntu17.4_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 37%][49m[39m [##############################################################################........................................................................................................................................] 8Unpacking gpgsm (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 39%][49m[39m [##################################################################################....................................................................................................................................] 8Selecting previously unselected package keyboxd.
+
+Preparing to unpack .../09-keyboxd_2.4.4-2ubuntu17.4_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 40%][49m[39m [######################################################################################................................................................................................................................] 8Unpacking keyboxd (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 42%][49m[39m [##########################################################################################............................................................................................................................] 8Selecting previously unselected package gnupg.
+
+Preparing to unpack .../10-gnupg_2.4.4-2ubuntu17.4_all.deb ...
+
+7[64;0f[42m[30mProgress: [ 44%][49m[39m [#############################################################################################.........................................................................................................................] 8Unpacking gnupg (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 46%][49m[39m [#################################################################################################.....................................................................................................................] 8Selecting previously unselected package gnupg-l10n.
+
+Preparing to unpack .../11-gnupg-l10n_2.4.4-2ubuntu17.4_all.deb ...
+
+7[64;0f[42m[30mProgress: [ 47%][49m[39m [#####################################################################################################.................................................................................................................] 8Unpacking gnupg-l10n (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 49%][49m[39m [#########################################################################################################.............................................................................................................] 8Selecting previously unselected package gpg-wks-client.
+
+Preparing to unpack .../12-gpg-wks-client_2.4.4-2ubuntu17.4_amd64.deb ...
+
+7[64;0f[42m[30mProgress: [ 51%][49m[39m [############################################################################################################..........................................................................................................] 8Unpacking gpg-wks-client (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 53%][49m[39m [################################################################################################################......................................................................................................] 8Setting up libksba8:amd64 (1.6.6-1build1) ...
+
+7[64;0f[42m[30mProgress: [ 54%][49m[39m [####################################################################################################################..................................................................................................] 87[64;0f[42m[30mProgress: [ 56%][49m[39m [########################################################################################################################..............................................................................................] 8Setting up pinentry-curses (1.2.1-3ubuntu5) ...
+
+7[64;0f[42m[30mProgress: [ 58%][49m[39m [###########################################################################################################################...........................................................................................] 87[64;0f[42m[30mProgress: [ 60%][49m[39m [###############################################################################################################################.......................................................................................] 8Setting up apt-transport-https (2.8.3) ...
+
+7[64;0f[42m[30mProgress: [ 61%][49m[39m [###################################################################################################################################...................................................................................] 87[64;0f[42m[30mProgress: [ 63%][49m[39m [#######################################################################################################################################...............................................................................] 8Setting up gnupg-l10n (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 65%][49m[39m [##########################################################################################################################################............................................................................] 87[64;0f[42m[30mProgress: [ 67%][49m[39m [##############################################################################################################################################........................................................................] 8Setting up gpgconf (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 68%][49m[39m [##################################################################################################################################################....................................................................] 87[64;0f[42m[30mProgress: [ 70%][49m[39m [######################################################################################################################################################................................................................] 8Setting up gpg (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 72%][49m[39m [#########################################################################################################################################################.............................................................] 87[64;0f[42m[30mProgress: [ 74%][49m[39m [#############################################################################################################################################################.........................................................] 8Setting up gnupg-utils (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 75%][49m[39m [#################################################################################################################################################################.....................................................] 87[64;0f[42m[30mProgress: [ 77%][49m[39m [#####################################################################################################################################################################.................................................] 8Setting up gpg-agent (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 79%][49m[39m [########################################################################################################################################################################..............................................] 87[64;0f[42m[30mProgress: [ 81%][49m[39m [############################################################################################################################################################################..........................................] 8Setting up gpgsm (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 82%][49m[39m [################################################################################################################################################################################......................................] 87[64;0f[42m[30mProgress: [ 84%][49m[39m [####################################################################################################################################################################################..................................] 8Setting up dirmngr (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 86%][49m[39m [#######################################################################################################################################################################################...............................] 87[64;0f[42m[30mProgress: [ 88%][49m[39m [###########################################################################################################################################################################################...........................] 8Setting up keyboxd (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 89%][49m[39m [###############################################################################################################################################################################################.......................] 87[64;0f[42m[30mProgress: [ 91%][49m[39m [###################################################################################################################################################################################################...................] 8Setting up gnupg (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 93%][49m[39m [######################################################################################################################################################################################################................] 87[64;0f[42m[30mProgress: [ 95%][49m[39m [##########################################################################################################################################################################################################............] 8Setting up gpg-wks-client (2.4.4-2ubuntu17.4) ...
+
+7[64;0f[42m[30mProgress: [ 96%][49m[39m [##############################################################################################################################################################################################################........] 87[64;0f[42m[30mProgress: [ 98%][49m[39m [##################################################################################################################################################################################################################....] 8Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+
+
+7[0;64r8[1A[J[33m
+0% [Working][0m
+            
+Hit:1 http://security.ubuntu.com/ubuntu noble-security InRelease
+[33m
+0% [Connected to deb.nodesource.com (2606:4700:10::6814:2dbe)] [Waiting for headers][0m
+                                                                                    
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+[33m
+                                                                                    
+0% [Waiting for headers][0m[33m
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+[33m
+                                              
+0% [Waiting for headers][0m
+                        
+Get:4 https://deb.nodesource.com/node_24.x nodistro InRelease [12.1 kB]
+[33m
+0% [4 InRelease 8192 B/12.1 kB 67%] [Waiting for headers][0m[33m
+                                                         
+0% [Waiting for headers][0m[33m
+0% [Waiting for headers][0m
+                        
+Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+[33m
+                        
+0% [Working][0m[33m
+0% [Working][0m[33m
+0% [Working][0m[33m
+76% [Waiting for headers][0m
+                         
+Get:6 https://deb.nodesource.com/node_24.x nodistro/main amd64 Packages [5027 B]
+[33m
+99% [6 Packages 5027 B/5027 B 100%][0m[33m
+                                   
+99% [Working][0m[33m
+99% [6 Packages store 0 B][0m[33m
+                          
+100% [Working][0m
+              
+Fetched 17.2 kB in 1s (26.5 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 55%
+
+Reading package lists... 55%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 80%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 1%
+
+Reading state information... Done
+
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[1;34m2026-02-24 15:04:03 - Repository configured successfully.[0m
+[38;5;79m2026-02-24 15:04:03 - To install Node.js, run: apt install nodejs -y[0m
+[38;5;79m2026-02-24 15:04:03 - You can use N|solid Runtime as a node.js alternative[0m
+[1;32m2026-02-24 15:04:03 - To install N|solid Runtime, run: apt install nsolid -y 
+[0m
+[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# [K[7mapt install -y nodejs[27mapt install -y nodejs
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 54%
+
+Reading package lists... 55%
+
+Reading package lists... 55%
+
+Reading package lists... 62%
+
+Reading package lists... 62%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 80%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 1%
+
+Reading state information... Done
+
+The following NEW packages will be installed:
+  nodejs
+0 upgraded, 1 newly installed, 0 to remove and 4 not upgraded.
+Need to get 38.1 MB of archives.
+After this operation, 234 MB of additional disk space will be used.
+[33m
+0% [Working][0m
+            
+Get:1 https://deb.nodesource.com/node_24.x nodistro/main amd64 nodejs amd64 24.13.1-1nodesource1 [38.1 MB]
+[33m
+0% [1 nodejs 673 B/38.1 MB 0%][0m[33m
+2% [1 nodejs 909 kB/38.1 MB 2%][0m[33m
+3% [1 nodejs 1516 kB/38.1 MB 4%][0m[33m
+4% [1 nodejs 1942 kB/38.1 MB 5%][0m[33m
+4% [1 nodejs 1991 kB/38.1 MB 5%][0m[33m
+7% [1 nodejs 3138 kB/38.1 MB 8%][0m[33m
+7% [1 nodejs 3482 kB/38.1 MB 9%][0m[33m
+9% [1 nodejs 4432 kB/38.1 MB 12%][0m[33m
+12% [1 nodejs 5743 kB/38.1 MB 15%][0m[33m
+13% [1 nodejs 6316 kB/38.1 MB 17%][0m[33m
+13% [1 nodejs 6365 kB/38.1 MB 17%][0m[33m
+14% [1 nodejs 6660 kB/38.1 MB 17%][0m[33m
+14% [1 nodejs 6857 kB/38.1 MB 18%]                                                                                                                                                                                            1070 kB/s 29s[0m[33m
+16% [1 nodejs 7692 kB/38.1 MB 20%]                                                                                                                                                                                            1070 kB/s 28s[0m[33m
+19% [1 nodejs 9118 kB/38.1 MB 24%]                                                                                                                                                                                            1070 kB/s 27s[0m[33m
+23% [1 nodejs 10.9 MB/38.1 MB 29%]                                                                                                                                                                                            1070 kB/s 25s[0m[33m
+26% [1 nodejs 12.2 MB/38.1 MB 32%]                                                                                                                                                                                            1070 kB/s 24s[0m[33m
+28% [1 nodejs 13.1 MB/38.1 MB 34%]                                                                                                                                                                                            1070 kB/s 23s[0m[33m
+30% [1 nodejs 14.2 MB/38.1 MB 37%]                                                                                                                                                                                            1070 kB/s 22s[0m[33m
+32% [1 nodejs 15.3 MB/38.1 MB 40%]                                                                                                                                                                                            1070 kB/s 21s[0m[33m
+35% [1 nodejs 16.8 MB/38.1 MB 44%]                                                                                                                                                                                            1070 kB/s 19s[0m[33m
+38% [1 nodejs 18.3 MB/38.1 MB 48%]                                                                                                                                                                                            1070 kB/s 18s[0m[33m
+41% [1 nodejs 19.3 MB/38.1 MB 51%]                                                                                                                                                                                            1070 kB/s 17s[0m[33m
+42% [1 nodejs 20.2 MB/38.1 MB 53%]                                                                                                                                                                                            1070 kB/s 16s[0m[33m
+47% [1 nodejs 22.5 MB/38.1 MB 59%]                                                                                                                                                                                             2596 kB/s 6s[0m[33m
+50% [1 nodejs 24.0 MB/38.1 MB 63%]                                                                                                                                                                                             2596 kB/s 5s[0m[33m
+57% [1 nodejs 27.2 MB/38.1 MB 71%]                                                                                                                                                                                             2596 kB/s 4s[0m[33m
+63% [1 nodejs 29.9 MB/38.1 MB 79%]                                                                                                                                                                                             2596 kB/s 3s[0m[33m
+67% [1 nodejs 32.0 MB/38.1 MB 84%]                                                                                                                                                                                             2596 kB/s 2s[0m[33m
+74% [1 nodejs 35.4 MB/38.1 MB 93%]                                                                                                                                                                                             2596 kB/s 1s[0m[33m
+78% [1 nodejs 37.2 MB/38.1 MB 98%]                                                                                                                                                                                             2596 kB/s 0s[0m[33m
+100% [Working]                                                                                                                                                                                                                 2596 kB/s 0s[0m
+                                                                                                                                                                                                                                           
+Fetched 38.1 MB in 16s (2436 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;63r8[1ASelecting previously unselected package nodejs.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 9041 files and directories currently installed.)
+Preparing to unpack .../nodejs_24.13.1-1nodesource1_amd64.deb ...
+7[64;0f[42m[30mProgress: [  0%][49m[39m [......................................................................................................................................................................................................................] 87[64;0f[42m[30mProgress: [ 20%][49m[39m [##########################################............................................................................................................................................................................] 8Unpacking nodejs (24.13.1-1nodesource1) ...
+7[64;0f[42m[30mProgress: [ 40%][49m[39m [#####################################################################################.................................................................................................................................] 8Setting up nodejs (24.13.1-1nodesource1) ...
+7[64;0f[42m[30mProgress: [ 60%][49m[39m [################################################################################################################################......................................................................................] 87[64;0f[42m[30mProgress: [ 80%][49m[39m [###########################################################################################################################################################################...........................................] 8
+7[0;64r8[1A[J[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# [7mnode /usr/src/app/index.js[27mnode /usr/src/app/index.js
+[?2004l
+Hello World
+[?2004h]0;root@2e3117e21ed0: /root@2e3117e21ed0:/# [Kexit
+[?2004l
+exit
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exit
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exit
+[?2004l
+exit
+
+Script done on 2026-02-24 15:04:37+01:00 [COMMAND_EXIT_CODE="0"]

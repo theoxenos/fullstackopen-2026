@@ -1,0 +1,10 @@
+GET localhost:3000/journals
+
+### Create new
+POST localhost:3000/journals
+Content-Type: application/json
+
+{
+  "title": "lofi vibes",
+  "content": "lorem ipsum"
+}

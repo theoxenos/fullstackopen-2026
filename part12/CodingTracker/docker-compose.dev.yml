@@ -1,0 +1,15 @@
+include:
+  - CodingTracker.Backend/docker-compose.dev.yml
+  - CodingTracker.Vue/docker-compose.dev.yml
+
+services:
+  proxy:
+    image: nginx:alpine-slim
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "8080:80"
+    container_name: reverse-proxy
+    depends_on:
+      - app
+      - server

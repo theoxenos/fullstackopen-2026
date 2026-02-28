@@ -1,0 +1,40 @@
+@url = http://localhost:3000
+
+GET {{url}}/projects
+
+### Create project
+POST {{url}}/projects
+Content-Type: application/json
+
+{
+  "StartDate": "2026-01-09",
+  "EndDate": "2026-01-18",
+  "name": "Godot Wildjam",
+  "description": "Gamejam for godot"
+}
+
+### Temp
+POST {{url}}
+
+{
+  "StartDate": "2025-11-01",
+  "EndDate": "2026-04-11",
+  "name": "ICT Maatwerk",
+  "description": "Dagbesteding voor ICT"
+}
+
+### Create session
+POST {{url}}/sessions
+Content-Type: application/json
+
+{
+  "projectId": 1,
+  "startTime": "2026-01-09T10:00:00+01:00",
+  "endTime": "2026-01-09T18:00:00+01:00"
+}
+
+### Get sessions for project
+GET {{url}}/projects/1/sessions
+
+###
+GET {{url}}/sessions/1

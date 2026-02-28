@@ -1,0 +1,15 @@
+services:
+  app:
+    image: codingtracker-vue:dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=development
+      - VITE_API_URL=http://localhost:5000
+    volumes:
+      - ./:/app
+    depends_on:
+      - server

@@ -1,0 +1,18 @@
+include:
+  - ./todo-backend/docker-compose.dev.yml
+  - ./todo-frontend/docker-compose.dev.yml
+
+services:
+  proxy:
+    image: nginx:alpine-slim
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "8080:80"
+    container_name: reverse-proxy
+    depends_on:
+      - app
+      - server
+  debug-helper:
+    image: busybox
+    container_name: debug-helper

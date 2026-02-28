@@ -1,0 +1,10 @@
+services:
+  client:
+    image: codingtracker-vue
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_URL=/api
+    environment:
+      - NODE_ENV=production

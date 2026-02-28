@@ -1,0 +1,10 @@
+﻿services:
+  server:
+    image: coding-tracker-backend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_HTTP_PORTS=3000
+    container_name: coding-tracker-backend
+  

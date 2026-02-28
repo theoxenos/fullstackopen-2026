@@ -1,0 +1,5 @@
+@import './base.css';
+
+.bg-yolo {
+  background-color: var(--hansa-yellow);
+}

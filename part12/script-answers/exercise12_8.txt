@@ -1,0 +1,97 @@
+Script started on 2026-02-25 09:24:02+01:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="236" LINES="64"]
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exitpodman exec -it 695 bashps[Kcompose -f note-app/todo-express/docker-compose.yml up --detach mongo
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exitpodman exec -it 695 bashps[Kcompose -f note-app/todo-express/docker-compose.yml up --detach mongo
+[?2004l
+[4m>>>> Executing external compose provider "/usr/lib/docker/cli-plugins/docker-compose". Please see podman-compose(1) for how to disable this message. <<<<
+
+[0m[?25l[0G[+] up 1/1
+ [32m✔[0m Container todo-express-mongo-1 [32mRunning[0m                                                                                                                                                                                               [34m0.0s[0m
+[?25h]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ podman compose -f note-app/todo-express/docker-compose.yml up --detach mongo
+[?25h]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ podman compose -f note-app/todo-express/docker-compose.yml up --detach mongo
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kpodman exec -it 695 bashps[K
+[?2004l
+CONTAINER ID  IMAGE                           COMMAND     CREATED        STATUS        PORTS       NAMES
+695fb59dbea7  docker.io/library/mongo:latest  mongod      7 minutes ago  Up 2 minutes  27017/tcp   todo-express-mongo-1
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ podman pscompose -f note-app/todo-express/docker-compose.yml up --detach mongo
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ podman pscompose -f note-app/todo-express/docker-compose.yml up --detach mongo
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kpodman exec -it 695 bash
+[?2004l
+[?2004hroot@695fb59dbea7:/# exitmongosh -u root -p example
+[?2004l
+]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	699eb1b36a57825c4b8563b0
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.7.0[0m
+Using MongoDB:		8.2.5
+[1m[33mUsing Mongosh[0m:		2.7.0
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+[1G[0J [1G[?2004h[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2026-02-25T08:21:35.850+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2026-02-25T08:21:36.150+00:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2026-02-25T08:21:36.150+00:00: We suggest setting the contents of sysfsFile to 0.
+   2026-02-25T08:21:36.150+00:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gshow dbs
+
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         12.00 KiB
+[1mlocal[0m          64.00 KiB
+[1mthe_database[0m   40.00 KiB
+[1G[0Jtest> [7Guse the_database
+
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find(P{[1G[0Jthe_database> db.todos.find(P[30G[1G[0Jthe_database> db.todos.find([29G{})
+
+[
+  {
+    _id: ObjectId([32m'699eaffa9d3edaeaf98563b1'[39m),
+    title: [32m'Write code'[39m,
+    completed: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'699eaffa9d3edaeaf98563b2'[39m),
+    title: [32m'Learn about containers'[39m,
+    completed: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insertOne({text[33mtext[39m: [32m'[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m [32mb[39m[32me[39m[32ml[39m[32mt[39m[32m'[39m, d[36mdo[39mdone: fals[33mfalse[39m})
+
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'699eb1f86a57825c4b8563b1'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the number of tools in my tool belt'[39m, [33mdone[39m: [33mfalse[39m})[102G[1G[0Jthe_database> db.todos.find({})[32G
+
+[
+  {
+    _id: ObjectId([32m'699eaffa9d3edaeaf98563b1'[39m),
+    title: [32m'Write code'[39m,
+    completed: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'699eaffa9d3edaeaf98563b2'[39m),
+    title: [32m'Learn about containers'[39m,
+    completed: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'699eb1f86a57825c4b8563b1'[39m),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+
+[?2004l]0;[?2004hroot@695fb59dbea7:/# exit
+[?2004l
+exit
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exit
+]0;user@host:/full-stack-open/part12[?2004h[user@host part12]$ exit
+[?2004l
+exit
+
+Script done on 2026-02-25 09:25:46+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,15 @@
+services:
+  server:
+    image: codingtracker-server:dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    ports:
+      - "5000:5000"
+      - "7000:7000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - .:/source
+      - /source/bin
+      - /source/obj

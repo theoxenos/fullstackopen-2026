@@ -1,0 +1,11 @@
+services:
+  app:
+    image: todo-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VITE_BACKEND_URL=/api
+    container_name: todo-frontend
+    environment:
+      - NODE_ENV=production
